@@ -171,7 +171,7 @@ The following XML was used to add records to an ORCID record. This data was used
 ##Group IDs
 ###Group 1
 
-File: [grouptest1.xml]()
+File: [grouptest1.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/grouptest1.xml)
 
 | Field | Value |
 | ----- | ----- |
@@ -182,6 +182,7 @@ File: [grouptest1.xml]()
 
 ###Group 2
 
+File: [grouptest2.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/grouptest2.xml)
 
 | Field | Value |
 | ----- | ----- |
@@ -190,19 +191,9 @@ File: [grouptest1.xml]()
 | **Group description** | The Wellcome Trust is a global charitable foundation dedicated to improving health by supporting bright minds in science, the humanities and social sciences, and public engagement. http://www.wellcome.ac.uk/ |
 | **Group type** | institution |
 
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<group-id:group-id-record xmlns:common="http://www.orcid.org/ns/common" xmlns:group-id="http://www.orcid.org/ns/group-id" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.orcid.org/ns/group-id ../group-id-2.0_rc1.xsd ">
-	<group-id:name>Wellcome Trust</group-id:name>
-	<group-id:group-id>ringgold:5072</group-id:group-id>
-	<group-id:description>The Wellcome Trust is a global charitable foundation dedicated to improving health by supporting bright minds in science, the humanities and social sciences, and public engagement. http://www.wellcome.ac.uk/</group-id:description>
-	<group-id:type>institution</group-id:type>
-</group-id:group-id-record>
-```
-
 ###Group 3
 
+File: [grouptest3.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/grouptest3.xml)
 
 | Field | Value |
 | ----- | ----- |
@@ -211,19 +202,10 @@ File: [grouptest1.xml]()
 | **Group description** | Nature Neuroscience is a multidisciplinary journal that publishes papers of the highest quality and significance in all areas of neuroscience. The editors welcome contributions in molecular, cellular, systems and cognitive neuroscience, as well as psychophysics, computational modeling and diseases of the nervous system. No area is excluded from consideration, although priority is given to studies that provide fundamental insights into the functioning of the nervous system. http://www.nature.com/neuro/index.html |
 | **Group type** | journal |
 
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<group-id:group-id-record xmlns:common="http://www.orcid.org/ns/common" xmlns:group-id="http://www.orcid.org/ns/group-id" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.orcid.org/ns/group-id ../group-id-2.0_rc1.xsd ">
-	<group-id:name>Nature Neuroscience</group-id:name>
-	<group-id:group-id>issn:1097-6256</group-id:group-id>
-	<group-id:description>Nature Neuroscience is a multidisciplinary journal that publishes papers of the highest quality and significance in all areas of neuroscience. The editors welcome contributions in molecular, cellular, systems and cognitive neuroscience, as well as psychophysics, computational modeling and diseases of the nervous system. No area is excluded from consideration, although priority is given to studies that provide fundamental insights into the functioning of the nervous system. http://www.nature.com/neuro/index.html</group-id:description>
-	<group-id:type>journal</group-id:type>
-</group-id:group-id-record>
-```
-
 ##Reviews
 ###Review 1
+
+File: [reviewtest1.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest1.xml)
 
 | Field | Value |
 | ----- | ----- |
@@ -241,44 +223,9 @@ File: [grouptest1.xml]()
 | **subject-url** |  |
 | **convening-organization** | ringgold:5072 |
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<peer-review:peer-review
-	visibility="private" xmlns:common="http://www.orcid.org/ns/common"
-	xmlns:peer-review="http://www.orcid.org/ns/peer-review" xmlns:work="http://www.orcid.org/ns/work"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.orcid.org/ns/peer-review ../peer-review-2.0_rc1.xsd ">		
-	<peer-review:reviewer-role>reviewer</peer-review:reviewer-role>	
-	<peer-review:review-identifiers>		
-		<work:work-external-identifier>
-			<common:external-identifier-url>http://www.wellcome.ac.uk/Funding/Biomedical-science/Application-information/Committees/WTP059408.htm</common:external-identifier-url>
-			<common:relationship>self</common:relationship>
-			<work:external-identifier-type>source-work-id</work:external-identifier-type>
-			<work:external-identifier-id>WTP059408</work:external-identifier-id>
-		</work:work-external-identifier>
-	</peer-review:review-identifiers>
-	<peer-review:review-url>http://www.wellcome.ac.uk/Funding/Biomedical-science/Application-information/Committees/WTP059408.htm</peer-review:review-url>
-	<peer-review:review-type>review</peer-review:review-type>	
-	<peer-review:review-completion-date>
-		<common:year>2014</common:year>
-	</peer-review:review-completion-date>	
-	<peer-review:review-group-id>ringgold:5072</peer-review:review-group-id>		
-	<peer-review:convening-organization>
-		<common:name>Wellcome Trust</common:name>
-		<common:address>
-			<common:city>London</common:city>
-			<common:region>London</common:region>
-			<common:country>GB</common:country>
-		</common:address>
-		<common:disambiguated-organization>
-			<common:disambiguated-organization-identifier>5072</common:disambiguated-organization-identifier>
-			<common:disambiguation-source>ringgold</common:disambiguation-source>
-		</common:disambiguated-organization>
-	</peer-review:convening-organization>	
-</peer-review:peer-review>
-```
-
 ###Review 2
+
+File: [reviewtest2.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest2.xml)
 
 | Field | Value |
 | ----- | ----- |
@@ -299,6 +246,8 @@ File: [grouptest1.xml]()
 
 ###Review 3
 
+File: [reviewtest3.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest3.xml)
+
 | Field | Value |
 | ----- | ----- |
 | **orcid-id** | qa.orcid.org/0000-0001-6356-0580 |
@@ -316,6 +265,8 @@ File: [grouptest1.xml]()
 | **convening-organization** | ringgold:174507 (Stanford University Press, Palo Alto, CA, US) |
 
 ###Review 4
+
+File: [reviewtest4.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest4.xml)
 
 | Field | Value |
 | ----- | ----- |
@@ -335,6 +286,8 @@ File: [grouptest1.xml]()
 
 ###Review 5
 
+File: [reviewtest5.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest5.xml)
+
 | Field | Value |
 | ----- | ----- |
 | **orcid-id** | qa.orcid.org/0000-0001-6356-0580 |
@@ -352,6 +305,8 @@ File: [grouptest1.xml]()
 | **convening-organization** | ringgold:1216 (Elsevier BV, Amsterdam, Noord-Holland, NL) |
 
 ###Review 6
+
+File: [reviewtest6.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest6.xml)
 
 | Field | Value |
 | ----- | ----- |
@@ -371,6 +326,8 @@ File: [grouptest1.xml]()
 
 ###Review 7
 
+File: [reviewtest7.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest7.xml)
+
 | Field | Value |
 | ----- | ----- |
 | **orcid-id** | qa.orcid.org/0000-0001-6356-0580 |
@@ -389,6 +346,8 @@ File: [grouptest1.xml]()
 
 ###Review 8
 
+File: [reviewtest8.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest8.xml)
+
 | Field | Value |
 | ----- | ----- |
 | **orcid-id** | qa.orcid.org/0000-0001-6356-0580 |
@@ -406,6 +365,8 @@ File: [grouptest1.xml]()
 | **convening-organization** | ringgold:53264 (NPG, London, London, GB) |
 
 ###Review 9
+
+File: [reviewtest9.xml](https://github.com/ORCID/ORCID-Example-Peer-Review/blob/master/reviewtest9.xml)
 
 | Field | Value |
 | ----- | ----- |
