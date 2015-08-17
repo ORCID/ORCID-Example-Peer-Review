@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group-id:group-id-record
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.orcid.org/ns/group-id https://raw.githubusercontent.com/ORCID/ORCID-Source/groupApi/orcid-model/src/main/resources/group-id-2.0_rc1/group-id-2.0_rc1.xsd"
+ xmlns:group-id="http://www.orcid.org/ns/group-id"
+ xmlns:common="http://www.orcid.org/ns/common">
+	<group-id:name>Nature Neuroscience</group-id:name>
+	<group-id:group-id>issn:1097-6256</group-id:group-id>
+	<group-id:description>Nature Neuroscience is a multidisciplinary journal that publishes papers of the highest quality and significance in all areas of neuroscience. The editors welcome contributions in molecular, cellular, systems and cognitive neuroscience, as well as psychophysics, computational modeling and diseases of the nervous system. No area is excluded from consideration, although priority is given to studies that provide fundamental insights into the functioning of the nervous system. http://www.nature.com/neuro/index.html</group-id:description>
+	<group-id:type>journal</group-id:type>
+</group-id:group-id-record>
+

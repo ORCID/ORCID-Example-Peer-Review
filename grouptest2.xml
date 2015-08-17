@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group-id:group-id-record xmlns:common="http://www.orcid.org/ns/common" xmlns:group-id="http://www.orcid.org/ns/group-id" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.orcid.org/ns/group-id ../group-id-2.0_rc1.xsd ">
+	<group-id:name>Wellcome Trust</group-id:name>
+	<group-id:group-id>ringgold:5072</group-id:group-id>
+	<group-id:description>The Wellcome Trust is a global charitable foundation dedicated to improving health by supporting bright minds in science, the humanities and social sciences, and public engagement. http://www.wellcome.ac.uk/</group-id:description>
+	<group-id:type>institution</group-id:type>
+</group-id:group-id-record>

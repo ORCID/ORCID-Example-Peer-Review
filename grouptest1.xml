@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group-id:group-id-record
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.orcid.org/ns/group-id https://raw.githubusercontent.com/ORCID/ORCID-Source/groupApi/orcid-model/src/main/resources/group-id-2.0_rc1/group-id-2.0_rc1.xsd"
+ xmlns:group-id="http://www.orcid.org/ns/group-id"
+ xmlns:common="http://www.orcid.org/ns/common">
+	<group-id:name>Journal of Neuroscience</group-id:name>
+	<group-id:group-id>issn:0270-6474</group-id:group-id>
+	<group-id:description>The Journal of Neuroscience is the official journal of the Society for Neuroscience. The Journal of Neuroscience publishes papers on a broad range of topics of general interest to those working on the nervous system. http://www.jneurosci.org/</group-id:description>
+	<group-id:type>journal</group-id:type>
+</group-id:group-id-record>

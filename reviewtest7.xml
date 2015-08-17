@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peer-review:peer-review
+	visibility="private" xmlns:common="http://www.orcid.org/ns/common"
+	xmlns:peer-review="http://www.orcid.org/ns/peer-review" xmlns:work="http://www.orcid.org/ns/work"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.orcid.org/ns/peer-review ../peer-review-2.0_rc1.xsd ">		
+	<peer-review:reviewer-role>reviewer</peer-review:reviewer-role>	
+	<peer-review:review-identifiers>		
+		<work:work-external-identifier>
+			<common:relationship>self</common:relationship>
+			<work:external-identifier-type>source-work-id</work:external-identifier-type>
+			<work:external-identifier-id>NPG-Neuro-230497837</work:external-identifier-id>
+		</work:work-external-identifier>
+	</peer-review:review-identifiers>
+	<peer-review:review-type>review</peer-review:review-type>	
+	<peer-review:review-completion-date>
+		<common:year>2014</common:year>
+		<common:month>11</common:month>
+	</peer-review:review-completion-date>	
+	<peer-review:review-group-id>issn:1097-6256</peer-review:review-group-id>		
+	<peer-review:convening-organization>
+		<common:name>Nature Publishing Group</common:name>
+		<common:address>
+			<common:city>London</common:city>
+			<common:region>London</common:region>
+			<common:country>GB</common:country>
+		</common:address>
+		<common:disambiguated-organization>
+			<common:disambiguated-organization-identifier>53264</common:disambiguated-organization-identifier>
+			<common:disambiguation-source>ringgold</common:disambiguation-source>
+		</common:disambiguated-organization>
+	</peer-review:convening-organization>	
+</peer-review:peer-review>
