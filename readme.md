@@ -118,7 +118,7 @@ HTTP/1.1 200 OK
  "orcid"        : "<ORCID-ID-Path>",
  "name"         : "<User's Name>"}
 ```
-##2. Post the peer review activities
+##3. Post the peer review activities
 
 | File | Resulting location |
 | ---- | ----------------- |
