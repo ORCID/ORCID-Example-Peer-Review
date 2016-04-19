@@ -156,7 +156,7 @@ Content-Length: 0
 
 #References and resources
 
-* [ORCID API v2.0_rc1 Peer Review Guide](https://github.com/ORCID/ORCID-Source/blob/RefactorPeerReview/orcid-model/src/main/resources/record_2.0_rc1/peer-review-guide-v2.0_rc1.md)
+* [ORCID API v2.0_rc1 Peer Review Guide](https://github.com/ORCID/ORCID-Source/blob/master/orcid-model/src/main/resources/record_2.0_rc1/peer-review-guide-v2.0_rc1.md)
 * [Peer Review XSD](https://github.com/ORCID/ORCID-Source/blob/master/orcid-model/src/main/resources/record_2.0_rc1/peer-review-2.0_rc1.xsd)
 * [Peer Review sample XML](https://github.com/ORCID/ORCID-Source/blob/master/orcid-model/src/main/resources/record_2.0_rc1/samples/peer-review-2.0_rc1.xml)
 * [Group ID API Documentation](https://github.com/ORCID/ORCID-Source/blob/master/orcid-model/src/main/resources/group-id-2.0_rc1/README.md)
